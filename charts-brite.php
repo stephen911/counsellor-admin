@@ -11,7 +11,7 @@
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/favicon2.ico">
 
         <!-- Britecharts css -->
         <link href="assets/vendor/britecharts/css/britecharts.min.css" rel="stylesheet" type="text/css" />

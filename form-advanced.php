@@ -12,7 +12,7 @@
     <meta content="Coderthemes" name="author" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon2.ico">
 
     <!-- Select2 css -->
     <link href="assets/vendor/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
