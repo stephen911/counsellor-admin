@@ -1065,7 +1065,18 @@ function ppaidcertified()
     $count2 = mysqli_num_rows($c2);
     // echo '('.(number_format((float)$count / $count2, '.', '')) * 100 .'%)';
 
-    echo '(' . round(($count / $count2) * 100, 2) . '%)';
+    try{
+        if($count2 == 0){
+            echo '(0%)';
+        }else{
+                echo '(' . round(($count / $count2) * 100, 2) . '%)';
+            
+                }
+        
+        
+            }catch(Exception $e){
+                echo '(0%)';
+            }
 }
 
 
@@ -1080,7 +1091,21 @@ function ppaidassociate()
     $count2 = mysqli_num_rows($c2);
     // echo '('.(number_format((float)$count / $count2, '.', '')) * 100 .'%)';
 
-    echo '(' . round(($count / $count2) * 100, 2) . '%)';
+    
+    try{
+if($count2 == 0){
+    echo '(0%)';
+}else{
+        echo '(' . round(($count / $count2) * 100, 2) . '%)';
+    
+        }
+
+
+    }catch(Exception $e){
+        echo '(0%)';
+    }
+
+    // echo '(' . round(($count / $count2) * 100, 2) . '%)';
 }
 
 function ppaidstudent()
@@ -1094,7 +1119,19 @@ function ppaidstudent()
     $count2 = mysqli_num_rows($c2);
     // echo '('.(number_format((float)$count / $count2, '.', '')) * 100 .'%)';
 
-    echo '(' . round(($count / $count2) * 100, 2) . '%)';
+ try{
+if($count2 == 0){
+    echo '(0%)';
+}else{
+        echo '(' . round(($count / $count2) * 100, 2) . '%)';
+    
+        }
+
+
+    }catch(Exception $e){
+        echo '(0%)';
+    }
+
 }
 
 function attendedmembers()
